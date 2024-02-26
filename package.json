@@ -1,0 +1,36 @@
+{
+  "name": "zksync-minting-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@chakra-ui/modal": "^2.1.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@safe-global/safe-core-sdk-types": "^4.0.0",
+    "@thirdweb-dev/react": "^4.4.9",
+    "@thirdweb-dev/sdk": "^4.0.36",
+    "@thirdweb-dev/wallets": "^2.4.11",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.2",
+    "framer-motion": "^6.5.1",
+    "lit-html": "^3.1.2",
+    "next": "12.2.2",
+    "papaparse": "^5.3.2",
+    "react": "18.2.0",
+    "react-color": "^2.19.3",
+    "react-countdown": "^2.3.2",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2"
+  }
+}
