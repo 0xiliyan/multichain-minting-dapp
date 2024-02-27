@@ -137,7 +137,7 @@ const Index = () => {
             <GlobalStyles background={currentConfig.backgroundColor} color={currentConfig.textColor} textSizePx={currentConfig.textSize} />
             {error && <ErrorMessage textSizePx={currentConfig.textSizePx}>{error}</ErrorMessage>}
             <Heading textSizePx={currentConfig.textSizePx}>{currentConfig.pageHeading}</Heading>
-            <CollectionLogo src="/images/logo.svg" width={currentConfig.logoMaxWidth} />
+            <CollectionLogo src={`/images/${currentConfig.logoFilename}`} width={currentConfig.logoMaxWidth} />
             <TotalMinted textSizePx={currentConfig.textSizePx}>{nftMintedCount?.toNumber()} / {nftTotalCount?.toNumber()}</TotalMinted>
             <ConnectWalletContainer textSizePx={currentConfig.textSizePx}>
                 <StyledButton borderStyle={currentConfig.mintButtonBorderStyle} textSizePx={currentConfig.textSizePx} background={currentConfig.buttonBackgroundColor} color={currentConfig.buttonColor}>

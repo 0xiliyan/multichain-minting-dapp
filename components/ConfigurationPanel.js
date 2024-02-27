@@ -130,6 +130,10 @@ const ConfigurationPanel = ({config, updateConfig}) => {
                         </SimpleGrid>
                         <SimpleGrid columns={2} spacing={10} mb={5}>
                             <FormControl>
+                                <FormLabel color="#000">Logo Filename</FormLabel>
+                                <Input color="#000" onChange={(e) => updateConfig('logoFilename', e.target.value)} value={config.logoFilename} />
+                            </FormControl>
+                            <FormControl>
                                 <FormLabel color="#000">Logo Max Width (px)</FormLabel>
                                 <Input color="#000" onChange={(e) => updateConfig('logoMaxWidth', e.target.value)} value={config.logoMaxWidth} />
                             </FormControl>

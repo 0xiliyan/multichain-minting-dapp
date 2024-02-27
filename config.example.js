@@ -11,6 +11,7 @@ export default {
     textSizePx: '12',
     buttonBackgroundColor: '#1E69FF',
     buttonColor: '#FFFFFF',
+    logoFilename: 'logo.svg',
     logoMaxWidth: 'auto',
     pageHeading: 'Public Mint for Demo Collection',
     mintButtonBorderStyle: 'rounded', // rounded, rectangular
