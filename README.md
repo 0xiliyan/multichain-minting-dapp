@@ -6,7 +6,7 @@
 
 &nbsp;
 
-Configurable multichain minting dapp that you can plug into any non-related project without any dependencies or iframes. Allows rich configuration via UI and the ability to modify the dapp code as well if you have basic knowledge in HTML and CSS.
+Configurable multichain NFT 🐸🐱🐶 minting dapp that you can plug into any non-related project without any dependencies or iframes. Allows rich configuration via UI and the ability to modify the dapp code as well if you have basic knowledge in HTML and CSS.
 
 1\. This repo uses Thirdweb SDK to manage the mint process. In order to deploy your smart contract visit thirdweb NFT Drop contract page and deploy on testnet / mainnet, do lazy premint of your NFTs with metadata and set your claim phases: https://thirdweb.com/thirdweb.eth/DropERC721. Full tutorial will follow! ✍️
 
