@@ -71,19 +71,16 @@ const ConfigurationPanel = ({config, updateConfig}) => {
                                     <option value={false}>No</option>
                                 </Select>
                             </FormControl>
-                            <FormControl>
-                                <FormLabel color="#000">Current App Network</FormLabel>
-                                <Select color="#000" onChange={(e) => updateConfig('rpcNetwork', e.target.value)} value={config.rpcNetwork}>
-                                    <option value="testnet">zkSync Sepolia Testnet</option>
-                                    <option value="mainnet">zkSync Era Mainnet</option>
-                                </Select>
-                            </FormControl>
                         </SimpleGrid>
                         <SimpleGrid columns={2} spacing={10} mb={5}>
                             <FormControl>
                                 <FormLabel color="#000">NFT Token Contract Address</FormLabel>
                                 <Input color="#000" onChange={(e) => updateConfig('tokenContractAddress', e.target.value)} value={config.tokenContractAddress} />
                                 <FormHelperText>Contract address of your deployed NFT collection for testnet or mainnet.</FormHelperText>
+                            </FormControl>
+                            <FormControl>
+                                <FormLabel color="#000">Max Mints Per Wallet</FormLabel>
+                                <Input color="#000" onChange={(e) => updateConfig('maxMintsForUser', e.target.value)} value={config.maxMintsForUser} />
                             </FormControl>
                         </SimpleGrid>
                         <SimpleGrid columns={2} spacing={10} mb={5}>
