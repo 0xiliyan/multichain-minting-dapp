@@ -75,7 +75,7 @@ const ConfigurationPanel = ({config, updateConfig}) => {
                         <SimpleGrid columns={2} spacing={10} mb={5}>
                             <FormControl>
                                 <FormLabel color="#000">NFT Token Contract Address</FormLabel>
-                                <Input color="#000" onChange={(e) => updateConfig('tokenContractAddress', e.target.value)} value={config.tokenContractAddress} />
+                                <Input color="#000" onChange={(e) => updateConfig('nftContractAddress', e.target.value)} value={config.nftContractAddress} />
                                 <FormHelperText>Contract address of your deployed NFT collection for testnet or mainnet.</FormHelperText>
                             </FormControl>
                             <FormControl>
