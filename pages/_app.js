@@ -1,5 +1,6 @@
 import '../styles/globals.css';
-import { ZksyncSepoliaTestnet, Zksync, LineaTestnet, Linea, BaseSepoliaTestnet, Base, ArbitrumSepolia, Arbitrum, OptimismGoerli, Optimism, ScrollSepoliaTestnet, Scroll } from "@thirdweb-dev/chains";
+import { ZksyncSepoliaTestnet, Zksync, LineaTestnet, Linea, BaseSepoliaTestnet, Base, ArbitrumSepolia, Arbitrum, 
+  OptimismGoerli, Optimism, ScrollSepoliaTestnet, Scroll, Sepolia, Ethereum } from "@thirdweb-dev/chains";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import config from "../config";
 
@@ -7,6 +8,12 @@ function MyApp({ Component, pageProps }) {
   let activeChain = '';
 
   switch (config.rpcNetwork) {
+    case('ethTestnet'):
+      activeChain = Sepolia;
+      break;
+    case('eth'):
+      activeChain = Ethereum;
+      break;    
     case('linea'):
       activeChain = Linea;
       break;
