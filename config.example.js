@@ -6,12 +6,12 @@ export default {
     thirdWebClientId: '',
     // frontend configuration
     isMintingEnabled: false,
-    backgroundColor: '#F7F9FC',
+    backgroundColor: '#200052',
     textColor: '#6BF6F0',
     textSizePx: '12',
-    buttonBackgroundColor: '#1E69FF',
+    buttonBackgroundColor: '#836ef9',
     buttonColor: '#FFFFFF',
-    logoFilename: 'logo.svg',
+    logoFilename: 'logo.png',
     logoMaxWidth: 'auto',
     pageHeading: 'Public Mint for Demo Collection',
     mintButtonBorderStyle: 'rounded', // rounded, rectangular
